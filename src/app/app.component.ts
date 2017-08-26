@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { S3Service } from './services/s3.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+
+  constructor(private s3Service: S3Service){
+    s3Service.getSignedRequest();
+  }
+
 }
