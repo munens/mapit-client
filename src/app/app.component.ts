@@ -10,7 +10,7 @@ export class AppComponent {
   title = 'app';
 
   constructor(private s3Service: S3Service){
-    s3Service.getSignedRequest();
+    
   }
 
 }

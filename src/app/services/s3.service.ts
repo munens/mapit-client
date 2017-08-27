@@ -13,7 +13,7 @@ export class S3Service {
   }
 
   getSignedRequest(){
-    debugger
+
   }
 
 }
