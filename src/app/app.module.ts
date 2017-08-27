@@ -10,7 +10,9 @@ import { AppLoginComponent } from './app-login/app-login.component';
 import { AppSignupComponent } from './app-signup/app-signup.component';
 
 const appRoutes: Routes = [
-  { path: '', component: AppMainComponent }
+  { path: '', component: AppMainComponent },
+  { path: 'login', component: AppLoginComponent },
+  { path: 'signup', component: AppSignupComponent }
 ];
 
 
