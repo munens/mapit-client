@@ -1,6 +1,7 @@
 .main-video {
-	height: 800px;
+	height: 810px;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
+	z-index: 1;
 }
