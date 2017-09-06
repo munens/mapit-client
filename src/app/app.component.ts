@@ -9,6 +9,8 @@ import { S3Service } from './services/s3.service';
 export class AppComponent {
   title = 'app';
 
+  hello = "hello";
+
   constructor(private s3Service: S3Service){
     
   }
