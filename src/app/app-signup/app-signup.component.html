@@ -1,12 +1,12 @@
 <div>
   <img class="signup-background" src="../../../public/signup/pexels-photo-208340.jpeg" alt="">
 </div>
-<div class="signup-frame">
+<div @signUpBoxEnter class="signup-frame">
   <div class="signup-panel">
     <form>
       <div class="input-group firstname">
         <label for="firstname" class="label-text firstname">What is your first name?</label>
-        <input type="text" class="input firstname" placeholder="#baba_jimmy">
+        <input [@inputEnter]="input_firstname ? 'focus-in' : 'focus-out'" (mouseenter)="input_firstname = true" (mouseleave)="input_firstname = false" type="text" class="input firstname" placeholder="#baba_jimmy">
       </div>
       <div class="input-group lastname">
         <label for="lastname" class="label-text lastname">What is your last name?</label>

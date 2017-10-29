@@ -40,7 +40,7 @@
 	width: 400px;
 	position: relative;
 	z-index: 50;
-	top: 180px;
+	top: 175px;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
@@ -68,6 +68,8 @@
 	background-color: rgba(0, 114, 255, 0.2);
 	padding-left: 8px;
 }
+
+.input:focus {outline:0;}
 
 .input::-webkit-input-placeholder {
 	color: #ce6363
